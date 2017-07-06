@@ -1,0 +1,71 @@
+#home {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 10% 24px;
+}
+
+.bio {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: rgba(0, 0, 0, .84);
+  margin-bottom: 52px;
+  margin-top: 90px;
+  padding: 124px 48px 48px;
+  position: relative;
+  text-align: center;
+}
+
+.photo {
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 160px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 160px;
+}
+
+.photo img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.bio header {
+  margin-bottom: 48px;
+}
+
+.bio h1 {
+  color: #000;
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+
+.bio h2 {
+  font-size: 18px;
+}
+
+.bio .intro {
+  margin-bottom: 32px;
+}
+
+.footer {
+  color: rgba(0, 0, 0, .54);
+  text-transform: uppercase; 
+}
+
+.footer span {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer a {
+  color: inherit;
+}
+
+.footer a:hover {
+  color: rgba(0, 0, 0, .84);
+}
