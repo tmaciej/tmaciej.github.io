@@ -7,7 +7,7 @@
 .bio {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: rgba(0, 0, 0, .84);
+  color: rgba(0, 0, 0, 0.84);
   margin-bottom: 52px;
   margin-top: 90px;
   padding: 124px 48px 48px;
@@ -16,7 +16,10 @@
 }
 
 .photo {
-  background: #fff;
+  background-color: #fff;
+  background-image: url('/assets/photo.jpg');
+  background-position: center center;
+  background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
   height: 160px;
@@ -26,12 +29,6 @@
   top: 0;
   transform: translate(-50%, -50%);
   width: 160px;
-}
-
-.photo img {
-  display: block;
-  height: 100%;
-  width: 100%;
 }
 
 .bio header {
@@ -53,8 +50,8 @@
 }
 
 .footer {
-  color: rgba(0, 0, 0, .54);
-  text-transform: uppercase; 
+  color: rgba(0, 0, 0, 0.54);
+  text-transform: uppercase;
 }
 
 .footer span {
@@ -67,5 +64,5 @@
 }
 
 .footer a:hover {
-  color: rgba(0, 0, 0, .84);
+  color: rgba(0, 0, 0, 0.84);
 }
